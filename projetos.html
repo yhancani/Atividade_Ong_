@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projetos — ONG Exemplo</title>
+  <meta name="description" content="Conheça nossos projetos, oportunidades de voluntariado e como doar." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <h1 class="logo">ONG Exemplo</h1>
+      <nav aria-label="Navegação principal">
+        <ul class="nav">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html" aria-current="page">Projetos</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" role="main">
+    <section aria-labelledby="projetos-titulo" class="projetos">
+      <h2 id="projetos-titulo">Projetos Sociais</h2>
+      <article aria-labelledby="projeto-educacao" class="projeto">
+        <h3 id="projeto-educacao">Educação Comunitária</h3>
+        <p>Projeto focado em reforço escolar, capacitação e apoio a jovens em vulnerabilidade.</p>
+        <img src="images/projeto-educacao.jpg" alt="Aula comunitária" loading="lazy">
+      </article>
+
+      <article aria-labelledby="projeto-saude" class="projeto">
+        <h3 id="projeto-saude">Saúde e Bem-estar</h3>
+        <p>Oficinas de saúde preventiva e ações de promoção do bem-estar.</p>
+        <img src="images/projeto-saude.jpg" alt="Atividade de saúde comunitária" loading="lazy">
+      </article>
+    </section>
+
+    <section aria-labelledby="voluntariado" class="voluntariado">
+      <h3 id="voluntariado">Voluntariado</h3>
+      <p>Se você quer ajudar, confira as oportunidades e candidate-se.</p>
+      <ul>
+        <li>Reforço escolar — 4 horas/semana</li>
+        <li>Auxílio em eventos — por demanda</li>
+      </ul>
+      <p><a href="cadastro.html">Cadastre-se como voluntário</a></p>
+    </section>
+
+    <section aria-labelledby="doacoes" class="doacoes">
+      <h3 id="doacoes">Como doar</h3>
+      <p>Doações online via plataforma parceira; transparência com relatórios de uso de recursos.</p>
+      <p><a href="#">Faça uma doação</a> (link fictício para demonstração).</p>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>&copy; <span id="ano2"></span> ONG Exemplo</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('ano2').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

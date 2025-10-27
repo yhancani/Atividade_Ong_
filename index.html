@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ONG Exemplo — Início</title>
+  <meta name="description" content="ONG Exemplo — missão, visão e valores. Conectando voluntariado, doações e impacto social." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <h1 class="logo">ONG Exemplo</h1>
+      <nav aria-label="Navegação principal">
+        <ul class="nav">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container" role="main">
+    <section aria-labelledby="sobre-titulo" class="hero">
+      <h2 id="sobre-titulo">Quem somos</h2>
+      <p>Somos uma organização dedicada a promover ações sociais e impacto comunitário.</p>
+      <img src="images/ong-equipe.jpg" alt="Equipe da ONG em ação" loading="lazy">
+    </section>
+
+    <section aria-labelledby="missao" class="institucional">
+      <h3 id="missao">Missão, Visão e Valores</h3>
+      <ul>
+        <li><strong>Missão:</strong> Promover inclusão e oportunidade.</li>
+        <li><strong>Visão:</strong> Comunidades autossustentáveis.</li>
+        <li><strong>Valores:</strong> Transparência, respeito e colaboração.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="historico" class="historico">
+      <h3 id="historico">Histórico e conquistas</h3>
+      <p>Atuamos desde 2018 com mais de 50 projetos comunitários e milhares de beneficiados.</p>
+    </section>
+
+    <section aria-labelledby="contato" class="contato">
+      <h3 id="contato">Contato</h3>
+      <address>
+        <p>Rua Exemplo, 123 — Cidade — Estado</p>
+        <p>Email: <a href="mailto:contato@ongexemplo.org">contato@ongexemplo.org</a></p>
+        <p>Telefone: <a href="tel:+5511999999999">+55 (11) 99999-9999</a></p>
+      </address>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>&copy; <span id="ano"></span> ONG Exemplo — Transparência e impacto social.</p>
+    </div>
+  </footer>
+
+  <script>
+    // define ano atual para footer
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
